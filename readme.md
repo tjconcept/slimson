@@ -20,6 +20,13 @@ Compiles to:
 {"name":"John","retired":true,"pets":["cat","dog"]}
 ```
 
+## CLI
+
+```sh
+./cli.js '{name:John,age:22,pets:[cat,dog]}'
+# {"name":"John","age":22,"pets":["cat","dog"]}
+```
+
 ## Test
 
 ```sh
