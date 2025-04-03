@@ -23,7 +23,8 @@ Compiles to:
 ## CLI
 
 ```sh
-./cli.js '{name:John,age:22,pets:[cat,dog]}'
+deno install --reload --global --name slimson https://raw.githubusercontent.com/tjconcept/slimson/refs/heads/main/cli.js
+slimson '{name:John,age:22,pets:[cat,dog]}'
 # {"name":"John","age":22,"pets":["cat","dog"]}
 ```
 
